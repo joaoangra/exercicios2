@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Desconto - Loja</title>
+    <link rel="stylesheet" href="atv9.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Loja - Cálculo de Desconto</h1>
+        <form id="formulario">
+            <div>
+                <label for="produto">Escolha o Produto:</label>
+                <select id="produto" required>
+                    <option value="">Selecione...</option>
+                    <option value="camisa">Camisa</option>
+                    <option value="bermuda">Bermuda</option>
+                    <option value="calca">Calça</option>
+                </select>
+            </div>
+            <div>
+                <label for="preco">Preço Original (R$):</label>
+                <input type="number" id="preco" required min="0">
+            </div>
+            <button type="submit">Calcular Desconto</button>
+        </form>
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="atv9.js"></script>
+</body>
+</html>

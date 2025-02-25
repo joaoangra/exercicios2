@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Preço com Aumento</title>
+    <link rel="stylesheet" href="atv3.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Calculadora de Aumento</h1>
+    
+    <label for="productName">Nome da Mercadoria:</label>
+    <input type="text" id="productName" placeholder="Digite o nome da mercadoria" required>
+    
+    <label for="productPrice">Preço da Mercadoria (R$):</label>
+    <input type="number" id="productPrice" placeholder="Digite o preço da mercadoria" required>
+    
+    <button onclick="calcularAumento()">Calcular Aumento</button>
+
+    <div class="result" id="result"></div>
+</div>
+
+<script src="atv3.js"></script>
+
+</body>
+</html>
