@@ -43,20 +43,17 @@ Repositório com soluções para exercícios de programação utilizando Node.js
 
 ## Estrutura do Projeto
 
-Ex1 /inss.html /
-    Ex2 /TiposDeTriangulos.html /
-        Ex3 /PrecoMercadoria.html /
-            Ex4 /MaiorNumero.html /
-                Ex5 /OrdemCrescente.html /
-            Ex6 /MaiorMenor.html /
-        Ex7 /ReajusteSalarial.html /
-    Ex8 /MediaNotas.html /
-Ex9 /ValorVenda.html /
-        styles.css / 
-                index.html.
-
-perl
-Copiar
+- Ex1 /inss.html /
+    - Ex2 /TiposDeTriangulos.html /
+        - Ex3 /PrecoMercadoria.html /
+            - Ex4 /MaiorNumero.html /
+                - Ex5 /OrdemCrescente.html /
+            - Ex6 /MaiorMenor.html /
+        - Ex7 /ReajusteSalarial.html /
+    - Ex8 /MediaNotas.html /
+- Ex9 /ValorVenda.html /
+        . styles.css / 
+                . index.html
 
 ## Como Rodar
 
